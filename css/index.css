@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+.main-page{
+display: grid;
+grid-template-rows: 1fr 4fr;
+grid-template-columns: 1fr;
+
+}
+
+.header{
+     background-attachment: fixed;
+    background-size: cover;
+    background-image: url(../img/stars3.gif);
+display: flex;
+border-radius: 3px;
+justify-content: center;
+ align-items: center;
+ 
+}
+.blocks2{
+    
+background-attachment: fixed;
+    background-size: cover;
+    background-image: url(../img/background1.png);
+display: grid;
+grid-template-columns: 1fr 1fr;
+border-radius: 3px;
+height: 120vh;
+padding-top: 5%;
+}
+.rightblock{
+ 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 3px;
+ 
+}
+.leftblock{
+display: none;
+}
+.span,.span1,.span2,.span3,.span4,.span5,.span6,.span7,.span8,.span9,.span10,.span11{
+    font-family: 'Reggae One';
+    text-align: center;
+    color:black;
+}
+.block,.block1,.block2,.block3,.block4,.block5,.block6,.block7,.block8,.block9,.block10,.block11{
+    height: 10em;
+    width: 100%;
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeInRightBig;
+    animation-duration: 1s;
+}
+.block{
+    background-color: khaki;
+}
+.block1{
+    background-color: brown;
+}
+.block2{
+    background-color:orange;
+}
+.block3{
+    background-color: aquamarine;
+}
+.block4{
+    background-color: indigo;
+}
+.block5{
+    background-color: indianred;
+}
+.block6{
+    background-color: maroon;
+}
+.block7{
+    background-color: lightcoral;
+}
+.block8{
+    background-color: firebrick;
+}
+.block9{
+    background-color: peru;
+}
+.block10{
+    background-color: chocolate;
+}
+.block11{
+    background-color: yellowgreen;
+}
+.inside,.inside1,.inside2,.inside3,.inside4,.inside5,.inside6,.inside7,.inside8,.inside9,.inside10,.inside11{
+    position: absolute;
+    color: wheat;
+    z-index: 100;
+    background-image: url(../img/stars4.gif);
+    display: none;
+    height: 10em;
+    width: 100%;
+    border-radius: 5px;
+    animation: bounceInDown;
+    animation-duration: 1s;
+    -moz-box-shadow:    inset 0 0 5px #000000;
+    -webkit-box-shadow: inset 0 0 5px #000000;
+    box-shadow:         inset 0 0 5px #000000;
+}
+.leftblock-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+body{
+    
+    max-width: 1980px;
+    margin: auto;
+}
+h1{
+    font-family: 'Reggae One';
+    text-align: center;
+    color: wheat;
+}
+.btn{
+    background-color: khaki;
+    border: none;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+    height: 80px;
+    width: 120px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.btn:hover{
+    background-color: lightcoral;
+}
+p{
+    margin: auto;
+    font-size: 2em;
+    background-color: #565656;
+   text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
+   font-family: 'Reggae One';
+   color: transparent;
+   -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+}
+span{
+   font-family: 'Reggae One';
+   color:yellow; 
+   
+}
+.inside11{
+text-align: center;
+}
