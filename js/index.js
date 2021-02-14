@@ -28,7 +28,7 @@ $('.block2').click(function(){
   else {alert("ну тут чисто или не угадала, или я не предусмотрел этот вариант ответа, перебирай еще:3")}
 });  
 $('.block3').click(function(){
- let que = Number(prompt('2*(2+2)'));
+ let que = Number(prompt('2*(2+2) (А ШО)) ЛЮБЫЕ ВОПРОСЫ ЖЕ)))1'));
     if (que === 8){
   $(".span3").fadeToggle(0);  
   $(".inside3").fadeToggle(100);}
@@ -46,7 +46,7 @@ $('.block5').click(function(){
     if (que == "бэнг"){
   $(".span5").fadeToggle(0);  
   $(".inside5").fadeToggle(100);}
-  else {alert("Шо сложного в слове бэнг?")}
+  else {alert("Шо сложного в слове бэнг?))")}
 });  
 $('.block6').click(function(){
  let que = prompt('Какой фильм мы смотрели с твоим любимым актером?');
@@ -77,7 +77,7 @@ $('.block9').click(function(){
   else {alert("ну тут чисто или не угадала, или я не предусмотрел этот вариант ответа, перебирай еще:3")}
 });  
 $('.block10').click(function(){
- let que = prompt('Как дела?))))))');
+ let que = prompt('Как дела?))))))(просто ответь как дела, да)))1)');
   alert("У Марго дела "+ que);  
   $(".span10").fadeToggle(0);  
   $(".inside10").fadeToggle(100);
